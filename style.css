@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Pastikan font ini sudah diimpor */
+}
+
+#jumbotron {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right, green, yellow);
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Menengah secara horizontal */
+    align-items: center; /* Menengah secara vertikal */
+    flex-direction: column;
+    gap: 10px;
+    font-size: 30px;
+    padding: 20px; /* Menambahkan padding */
+    text-align: center; /* Memastikan teks di tengah */
+}
+
+#jumbotron p {
+    font-size: 20px;
+}
+
+#navbar {
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+    display: flex; /* Menambahkan display flex agar item di navbar terpusat */
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul {
+    display: flex;
+    gap: 10px;
+}
+
+#navbar ul li {
+    list-style-type: none;
+}
+
+#navbar ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; /* Menambahkan font-weight */
+}
+
+#navbar ul li a:hover {
+    color: yellow; 
+}
+
+main {
+    padding: 20px; 
+}
+
+article {
+    margin-bottom: 20px; 
+    text-align: center; /* Menengahkan teks di dalam artikel */
+}
+
+article h2 {
+    font-size: 28px; 
+}
+
+article img {
+    width: 100%; /* Mengubah width gambar agar lebih kecil */
+    max-width: 600px; /* Menentukan lebar maksimum gambar */
+    height: auto; /* Menjaga aspek rasio gambar */
+    max-height: 300px; /* Mengatur tinggi maksimum agar gambar tidak terlalu tinggi */
+    object-fit: cover; /* Memastikan gambar terpotong dengan proporsional */
+    margin: 10px 0; 
+    border-radius: 20px; /* Mengatur radius untuk membuat sudut melengkung */
+}
+
+footer {
+    text-align: center; 
+    padding: 10px 0; 
+    background-color: #f1f1f1; 
+}
